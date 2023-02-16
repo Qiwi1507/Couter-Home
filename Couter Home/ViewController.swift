@@ -19,7 +19,7 @@ class ViewController: UIViewController {
 
     @IBAction func ButtonCounter(_ sender: Any) {
         count = count + 1
-        lableImage.text = "\(count)"
+        lableImage.text = "\("Значение счётчика:") \(count)"
         }
     }
     
